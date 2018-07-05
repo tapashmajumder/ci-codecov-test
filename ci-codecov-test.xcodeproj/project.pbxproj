@@ -13,6 +13,8 @@
 		AC722BAD20EBFB360007B906 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC722BAC20EBFB360007B906 /* Assets.xcassets */; };
 		AC722BB020EBFB360007B906 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC722BAE20EBFB360007B906 /* LaunchScreen.storyboard */; };
 		AC722BBB20EBFB360007B906 /* ci_codecov_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC722BBA20EBFB360007B906 /* ci_codecov_testTests.swift */; };
+		AC9A49A520EE7AFE0007A5A2 /* Class1.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9A49A420EE7AFE0007A5A2 /* Class1.swift */; };
+		AC9A49A720EE7BFB0007A5A2 /* Class1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9A49A620EE7BFB0007A5A2 /* Class1Tests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		AC722BB620EBFB360007B906 /* ci-codecov-testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ci-codecov-testTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC722BBA20EBFB360007B906 /* ci_codecov_testTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ci_codecov_testTests.swift; sourceTree = "<group>"; };
 		AC722BBC20EBFB360007B906 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC9A49A420EE7AFE0007A5A2 /* Class1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Class1.swift; sourceTree = "<group>"; };
+		AC9A49A620EE7BFB0007A5A2 /* Class1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Class1Tests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,7 @@
 				AC722BAC20EBFB360007B906 /* Assets.xcassets */,
 				AC722BAE20EBFB360007B906 /* LaunchScreen.storyboard */,
 				AC722BB120EBFB360007B906 /* Info.plist */,
+				AC9A49A420EE7AFE0007A5A2 /* Class1.swift */,
 			);
 			path = "ci-codecov-test";
 			sourceTree = "<group>";
@@ -92,6 +97,7 @@
 			children = (
 				AC722BBA20EBFB360007B906 /* ci_codecov_testTests.swift */,
 				AC722BBC20EBFB360007B906 /* Info.plist */,
+				AC9A49A620EE7BFB0007A5A2 /* Class1Tests.swift */,
 			);
 			path = "ci-codecov-testTests";
 			sourceTree = "<group>";
@@ -197,6 +203,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC9A49A520EE7AFE0007A5A2 /* Class1.swift in Sources */,
 				AC722BA820EBFB350007B906 /* ViewController.swift in Sources */,
 				AC722BA620EBFB350007B906 /* AppDelegate.swift in Sources */,
 			);
@@ -206,6 +213,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC9A49A720EE7BFB0007A5A2 /* Class1Tests.swift in Sources */,
 				AC722BBB20EBFB360007B906 /* ci_codecov_testTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -33,4 +33,7 @@ class ci_codecov_testTests: XCTestCase {
         }
     }
     
+    func test1() {
+        
+    }
 }
