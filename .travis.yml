@@ -11,4 +11,4 @@ script:
 #  - pod lib lint
 
 after_success:
-  - bash <(curl -s https://codecov.io/bash) -J ci-codecov-test
+  - bash <(curl -s https://codecov.io/bash)
